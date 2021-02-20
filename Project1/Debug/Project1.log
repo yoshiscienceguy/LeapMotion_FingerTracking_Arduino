@@ -1,0 +1,22 @@
+﻿ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapCreateConnection@8 referenced in function _OpenConnection
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapOpenConnection@4 referenced in function _OpenConnection
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapOpenDevice@12 referenced in function _handleDeviceEvent
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapGetDeviceInfo@8 referenced in function _handleDeviceEvent
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapPollConnection@12 referenced in function _serviceMessageLoop
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapCloseDevice@4 referenced in function _handleDeviceEvent
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapCloseConnection@4 referenced in function _CloseConnection
+ExampleConnection.obj : error LNK2019: unresolved external symbol __imp__LeapDestroyConnection@4 referenced in function _CloseConnectionHandle
+GLutils.obj : error LNK2001: unresolved external symbol ___glewAttachShader
+GLutils.obj : error LNK2001: unresolved external symbol ___glewCompileShader
+GLutils.obj : error LNK2001: unresolved external symbol ___glewCreateProgram
+GLutils.obj : error LNK2001: unresolved external symbol ___glewCreateShader
+GLutils.obj : error LNK2001: unresolved external symbol ___glewGetProgramInfoLog
+GLutils.obj : error LNK2001: unresolved external symbol ___glewGetProgramiv
+GLutils.obj : error LNK2001: unresolved external symbol ___glewGetShaderInfoLog
+GLutils.obj : error LNK2001: unresolved external symbol ___glewGetShaderiv
+GLutils.obj : error LNK2001: unresolved external symbol ___glewLinkProgram
+GLutils.obj : error LNK2001: unresolved external symbol ___glewShaderSource
+ImageSample.obj : error LNK2019: unresolved external symbol __imp__LeapSetPolicyFlags@20 referenced in function _main
+freeglut_static.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+freeglut_staticd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Master\source\repos\Project1\Debug\Project1.exe : fatal error LNK1120: 19 unresolved externals
